@@ -28,9 +28,9 @@ class ParseDNSFiles:
 				
 				#print i.replace('\n','')
 				
-				#self.append_list.append(i.replace('\n','').replace('\r','').replace('\t','  '))
+				#self.append_list.append(i.replace('\n','').replace('\r','').replace('\t','	'))
 				first_replace = i.replace('\n','').replace('\r','').replace('\t',' ')
-				replacespaces = first_replace.replace('          ',' ').replace('         ',' ').replace('        ',' ').replace('       ',' ').replace('      ',' ').replace('     ',' ').replace('    ',' ').replace('   ',' ').replace('  ',' ')
+				replacespaces = first_replace.replace('					',' ').replace('				 ',' ').replace('				',' ').replace('			 ',' ').replace('			',' ').replace('		 ',' ').replace('		',' ').replace('	 ',' ').replace('	',' ')
 
 				self.append_list.append(replacespaces)
 
