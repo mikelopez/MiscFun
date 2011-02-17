@@ -6,10 +6,10 @@ import os, urllib
 
 
 class getLatLong:
-		def __init__(self):
+	def __init__(self):
 		self.lat = ''
 		self.long = ''
-  	  self.loop = ''
+		self.loop = ''
 		self.addr = ''
 
 	def startSetting(self):
@@ -36,7 +36,7 @@ class getLatLong:
 				url = 'http://maps.google.com/maps?q=%s+%s' % (lat,lng)
 
 			if url<>'':
-				self.lat  = lat
+				self.lat	= lat
 				self.long = lng
 
 
