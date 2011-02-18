@@ -1,6 +1,7 @@
 # mike 2009 - this script will read from the dns zone files, 
 # and import the data to the database
 # this is an initial script, for first time setups 
+# read dns from zonefiles and import to database
 #
 # DEPRECATED - needs refactoring... 
 

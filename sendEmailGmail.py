@@ -1,7 +1,6 @@
 # Author: Marcos Lopez
 # Publicized for personal reference, free to use and/or modify
 # send email via gmails smtp server using your credentials
-# use thsi for any scripts that run on the system that require email alerts of some sort
 
 import smtplib
 from email.MIMEText import MIMEText
